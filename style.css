@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor1:#F8F5EE;
+    --cor2:#EBE5D8;
+    --cor3:#707070;
+    --cor4:#0A0A0A;
+    --cor5:#FFFFFF;
+
+    
+}
+
+body{
+    background-color: #F8F5EE;
+    
+}
+header{
+    background-color: #EBE5D8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1258px;
+    max-height: 135.4px;
+    margin: auto;
+    
+
+}
+.logo{
+   
+    width: 79px;
+    height: 73px;
+    border-radius: 50%;
+    padding-left: 30px;
+}
+.logo image{
+}
+.menu{
+   
+}
+.menu a{
+    background-color: var(--cor2);
+    padding:6px;
+    border-radius:30%;
+    margin-left: 15px;
+    text-decoration: none;
+    color: var(--cor3);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.171);
+
+}
+.menu a:hover{
+    color: var(--cor5);
+    box-sizing: initial;
+    background-color: var(--cor3);
+}
+.redes{
+    padding: 10px;
+}
+
+main{
+    width: 1258px;
+    height: 403px;
+    background-image: linear-gradient(to left,var(--cor3),var(--cor4));
+    margin: auto;
+    
+   
+
+}
+article{
+    background-image: url('imagens/olho.jpg');
+    width: 1258px;
+    height: 403px;
+    margin: auto;
+    display: block;
+    
+    position: relative;
+    
+   
+   
+}
+.dizer{
+    background-color:rgba(56, 55, 55, 0.014);
+    position: absolute;
+    left: 60%;
+    bottom: 55%;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.068);
+}
+.dizer p{
+    font-size: 2.5em;
+    font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: var(--cor5);
+}
+.dizer h1{
+    font-family:'Times New Roman', Times, serif;
+    color: var(--cor5);
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.submenu{
+    margin-top: 30px;
+
+    position: absolute;
+    left: 60%;
+    bottom: 30%;
+    
+
+}
+.submenu a{
+    background-color: #70707088;
+    padding: 8px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: var(--cor5);
+    text-shadow: 3px 5px 4px rgba(0, 0, 0, 0.247);
+
+}
+.submenu a:hover{
+    color: var(--cor4);
+    background-color: var(--cor2);
+}
+section{
+    
+    width: 1258px;
+    height: 403px;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+
+    display: flex;
+    align-content: space-between;
+}
+.imagens img{
+    margin: 0px 10px;
+
+}
+
+
